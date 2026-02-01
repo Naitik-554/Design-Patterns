@@ -1,0 +1,72 @@
+# =====================
+# IntelliJ IDEA
+# =====================
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# IntelliJ caches
+.idea_modules/
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# =====================
+# Java / JVM
+# =====================
+*.class
+*.log
+
+# JVM crash logs
+hs_err_pid*
+
+# =====================
+# Build tools
+# =====================
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# =====================
+# Spring Boot
+# =====================
+*.jar
+*.war
+*.ear
+*.nar
+
+# =====================
+# OS files
+# =====================
+.DS_Store
+Thumbs.db
+
+# =====================
+# Environment / secrets
+# =====================
+.env
+*.env
+application-local.yml
+application-local.properties
+
+# =====================
+# Test & coverage
+# =====================
+/coverage/
+*.lcov
+
+# =====================
+# Logs
+# =====================
+logs/
+*.log
